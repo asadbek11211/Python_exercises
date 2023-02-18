@@ -1,2 +1,3 @@
 # Python_exercises
-Assalomu alaykum Python darsidan mashiqlar
+
+Assalomu alaykum Python darsidan mashiqlar birgalikda o'rganamiz
