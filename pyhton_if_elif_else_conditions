@@ -1,0 +1,451 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMHpVCeipoGHSQqlaEjyT96",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/asadbek11211/Python_exercises/blob/main/pyhton_if_elif_else_conditions\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Python, if, elif, else"
+      ],
+      "metadata": {
+        "id": "jmWQdr_q9IkY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "95JyJ4zK7xZG"
+      },
+      "outputs": [],
+      "source": [
+        "a_number = 34"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if a_number % 2 == 0:\n",
+        "   print(f\"{a_number} number is int\")\n",
+        "else:\n",
+        "   print(f\"{a_number} number is float\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "h9ASzShy9cxV",
+        "outputId": "f2c02ad2-cb0f-4a7f-93c1-74c3136dc1ae"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "34 number is int\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "another_number = 33"
+      ],
+      "metadata": {
+        "id": "VfcDQpHD-AOv"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if another_number % 2 == 1:\n",
+        "  print(\"The given number {} is even.\".format(a_number))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "a0ucyCrE-gSY",
+        "outputId": "95077002-1d86-48e7-9522-63103057df1d"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The given number 34 is even.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "the_3_muskitors = ('Athos', 'Portos' 'Aramis')\n",
+        "\n",
+        "a_candidate = \"D'Artagnan\""
+      ],
+      "metadata": {
+        "id": "Ea4neWTn-7Se"
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if a_candidate in the_3_muskitors:\n",
+        "  print(\"{} is a muskiteer\".format(a_candidate))\n",
+        "else:\n",
+        "  print(\"{} is not muskiterr\".format(a_candidate))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5DzXg7se_9kX",
+        "outputId": "1b1fe5b5-a01d-4d82-c346-7908dcd3ff87"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "D'Artagnan is not muskiterr\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a_number = 49\n",
+        "\n",
+        "if a_number % 2 == 0:\n",
+        "  print('{} is divisible by 2'.format(a_number))\n",
+        "elif a_number % 3 == 0:\n",
+        "  print('{} is divisible by 3'.format(a_number))\n",
+        "elif a_number % 5 == 0:\n",
+        "  print('{} is divisible by 5'.format(a_number))\n",
+        "else:\n",
+        "  print('All checks failed!')\n",
+        "  print(\"{} is not divisible by 2, 3, 5 \".format(a_number))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ykcjhX65AiDo",
+        "outputId": "209176e6-12cc-4294-81d4-96b76829e8d0"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "All checks failed!\n",
+            "49 is not divisible by 2, 3, 5 \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Non-Boolean Condition"
+      ],
+      "metadata": {
+        "id": "px3C8HTiDQtP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if '':\n",
+        "  print('The condition evaluted to True')\n",
+        "else:\n",
+        "  print('The condition evaluted to False')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tmqX_SMICs9p",
+        "outputId": "a69646af-72d7-46c9-ff9d-89ca3b8d6386"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The condition evaluted to False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if ' ':\n",
+        "  print('The condition evaluted to True')\n",
+        "else:\n",
+        "  print('The condition evaluted to False')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "S7K8lnQBEL3y",
+        "outputId": "a37e11c3-0f8c-40a5-b4b0-46b829f39890"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The condition evaluted to True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if 'Hello':\n",
+        "  print('The condition evaluted to True')\n",
+        "else:\n",
+        "  print('The condition evaluted to False')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q_FMBjXGETkt",
+        "outputId": "351763a8-17f5-4106-e7fb-10f0e183d6fc"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The condition evaluted to True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "E6IhJh1EEsAd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if { 'a': 'asd'}:\n",
+        "  print('The condition evaluted to True')\n",
+        "else:\n",
+        "  print('The condition evaluted to False')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GbJgcQFDEbnZ",
+        "outputId": "cfa129eb-5f0a-4df7-abcd-3aeca17fb43a"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The condition evaluted to True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if None :\n",
+        "  print('The condition evaluted to True')\n",
+        "else:\n",
+        "  print('The condition evaluted to False')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3Cg8KR7XEklD",
+        "outputId": "5af67221-5f5b-4fcc-f787-43eaa78ad605"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The condition evaluted to False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "***Nested conditional statments***"
+      ],
+      "metadata": {
+        "id": "O5-aFhpMEvKh"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a_number = 15\n",
+        "\n",
+        "if a_number % 3 == 0:\n",
+        "    print('{} is even'.format(a_number))\n",
+        "    if a_number % 3 == 0:\n",
+        "       print('{} is also divisible by 3'.format(a_number))\n",
+        "    else:\n",
+        "       print('{} is not divisible by 3'.format(a_number))\n",
+        "else:\n",
+        "    print('{} is even'.format(a_number))\n",
+        "    if a_number % 5 == 0:\n",
+        "       print('{} is also divisible by 5'.format(a_number))\n",
+        "    else:\n",
+        "       print('{} is not divisible by 5'.format(a_number))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "b0vrfFBtEqer",
+        "outputId": "5b21042a-2247-45bd-b978-65a445b5a6cc"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15 is even\n",
+            "15 is also divisible by 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Shorthand if conditional expression**\n",
+        "\n",
+        "True if condition else Folse"
+      ],
+      "metadata": {
+        "id": "cist0hVBIcdh"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a_number = 12\n",
+        "\n",
+        "'a_number' if a_number % 2 == 0 else 'odd'"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "dpcbeyK1HEIV",
+        "outputId": "809543e8-7323-49e5-dea3-99c4c366a777"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'a_number'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 25
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = 43\n",
+        "\n",
+        "'big' if n % 2 == 0 else 'smal'"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "RRu_TlaqJCIC",
+        "outputId": "8df20532-c3f3-4146-a328-9e5e57f0b874"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'smal'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 26
+        }
+      ]
+    }
+  ]
+}
