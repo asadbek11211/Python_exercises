@@ -12,6 +12,7 @@ k = int(input("k soniga biror qiymat kiriting : "))
 n = int(input("n qiymatiga yana biror son kiriting : "))
 j = 0
 
+
 for son in range(1,n+1):
     j = j +1
     print(f"\n{j}-marta : {k}")
