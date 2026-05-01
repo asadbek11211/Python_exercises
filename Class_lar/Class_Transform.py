@@ -8,7 +8,6 @@ Amaliyot Class
 
 
 
-
 # class Users:
 #     def __init__(self,name,familiya,email):
 #         self.name = name
