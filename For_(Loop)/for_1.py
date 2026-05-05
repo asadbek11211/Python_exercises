@@ -6,6 +6,7 @@ Qudrat Abdullayev darsligidan
 Masala sharti:
 k va n butun sonlari berilgan (n > 0). k sonini n marta chiqaruvchi pragramma tuzing.
 
+
     
 """
 print("k sonini n marta chiqarish dasturi")
