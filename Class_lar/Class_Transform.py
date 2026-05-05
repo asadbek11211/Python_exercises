@@ -5,6 +5,7 @@ Amaliyot Class
 @author: Lenovo
 """
 
+
 # class Users:
 #     def __init__(self,name,familiya,email):
 #         self.name = name
