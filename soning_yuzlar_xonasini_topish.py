@@ -8,6 +8,7 @@ Created on Sat Feb 18 20:54:33 2023
 """
 son = int(input("999 dan katta bo'lgan son kiriting : "))
 
+
 son1 = int(son/100)
 
 son2 = son1%10
