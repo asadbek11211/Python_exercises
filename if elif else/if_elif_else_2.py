@@ -9,6 +9,7 @@ Masalaning qo'yilishi:
     - Agar foydalanuvchi 18 dan katta bo'lsa, 20 000 so'm.
 """
 
+
 yosh = int(input("Yoshingizni kiriting : "))
 
 if yosh <= 4:
