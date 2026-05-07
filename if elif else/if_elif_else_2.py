@@ -16,6 +16,7 @@ if yosh <= 4:
 elif yosh > 4 and yosh < 18:
     print("Sizga kirish 10 000 so'm")
 elif yosh >= 18 and yosh < 60 :
+    
     print("Sizga kirish 20 000 so'm")
 else:
     print("Sizga kirish bepul")
