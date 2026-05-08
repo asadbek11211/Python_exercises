@@ -8,7 +8,7 @@ Foydalanuvchidan son olib, son juft yoki toqligini konsolga chiqaruvchi funksiya
 def juft_toq_aniqla(son):
     '''Juft yoki Toqlikni aniqlovchi function'''
 
-    
+
     if son % 2 == 0:
         print(f"{son} soni juft")
     else:
