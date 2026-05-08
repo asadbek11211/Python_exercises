@@ -4,6 +4,7 @@ Created on Fri Jan 27 08:19:19 2023
 
 Foydalanuvchidan son olib, son juft yoki toqligini konsolga chiqaruvchi funksiya yozing.
 
+
 """
 def juft_toq_aniqla(son):
     '''Juft yoki Toqlikni aniqlovchi function'''
