@@ -12,5 +12,6 @@ def juft_toq_aniqla(son):
     if son % 2 == 0:
         print(f"{son} soni juft")
     else:
+        
         print(f"{son} soni toq")
 print(juft_toq_aniqla(17))
