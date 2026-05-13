@@ -16,6 +16,7 @@ while True:
     elif qiymat =='exit':
         break
     else:
+        
         ildiz = float(qiymat)**(0.5)
         print(f"{qiymat} ning ildizi {ildiz} ga teng")
 print("Byebye")
