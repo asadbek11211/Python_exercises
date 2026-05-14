@@ -17,5 +17,6 @@ butun = []
 
 for m in range(a,b+1):
     butun.append(m)
+    
 print(f"\n a va b sonlari orasidagi barcha butun sonlari \n {butun}")
 
