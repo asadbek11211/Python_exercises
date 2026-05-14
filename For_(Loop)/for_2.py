@@ -2,6 +2,7 @@
 """
 Created on Sat Jan 21 21:08:47 2023
 
+
 Qudrat Abdullayev darsligidan
 
 Masala sharti:
